@@ -5,7 +5,8 @@
 // focus	An element has received focus (does not bubble).
 // blur	An element has lost focus (does not bubble).
 // scroll	The document view or an element has been scrolled.
-
+const source = document.createElement("script");
+source.src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js";
 
 const bod = document.querySelector("body");
 
@@ -75,8 +76,6 @@ const imageResize = document.querySelector('.content-destination img');
 //     }
 //   }
 
-HTML CSS JSResult
-EDIT ON
 var heart = document.getElementsByClassName('heart')[1],
     pfx = ["webkit", "moz", "MS", "o", ""],
     hovered = false;
